@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+	overflow-x: hidden
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #1D2025;
+	color: rgba(0, 0, 0, .5) !important;
+}
+
+a {
+	color: rgba(0, 0, 0, .5) !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #424242 !important;
+}
+
+::selection {
+	color: #F9F9F9;
+	background: #252525;
+}
+
+/* 
+------------------------------------------- 
+	UTILITY 
+-------------------------------------------
+*/
+
+.text-primary {
+	color: #eb2f3f !important;
+}
+
+.text-black {
+	color: #3f4347 !important;
+}
+
+.text-muted {
+	color: #868686 !important;
+}
+
+.text-fade-1 {
+	color: rgba(255, 255, 255, .7) !important;
+}
+
+.text-fade-2 {
+	color: rgba(255, 255, 255, .5) !important;
+}
+
+.text-fade-3 {
+	color: rgba(255, 255, 255, .3) !important;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.leading-tight {
+	line-height: 1.25;
+}
+
+.leading-snug {
+	line-height: 1.375;
+}
+
+.leading-normal {
+	line-height: 1.5;
+}
+
+.leading-relaxed {
+	line-height: 1.625;
+}
+
+.leading-loose {
+	line-height: 2;
+}
+
+.v-invisible {
+	visibility: hidden;
+}
+
+.ls--3px {
+	letter-spacing: -3px;
+}
+
+.fs-7 {
+	font-size: 0.75rem;
+}
+
+.fw-medium {
+	font-weight: 600;
+}
+
+
+.fw-bolder {
+	font-weight: 900 !important;
+}
+
+.p-8 {
+	padding: 7.5rem;
+}
+
+.py-13 {
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+}
+
+.pe-6 {
+	padding-right: 4.5rem;
+}
+
+.mp-0 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.mb-8rem {
+	margin-bottom: 8rem;
+}
+
+.min-vh-80 {
+	min-height: 80vh;
+}
+
+.min-vh-50 {
+	min-height: 50vh;
+}
+
+.z-999 {
+	z-index: 999;
+}
+
+.border-top-fade-black-1 {
+	border-top: 3px solid rgba(0, 0, 0, .2) !important; 
+}
+
+.border-bottom-fade-black-1 {
+	border-bottom: 3px solid rgba(0, 0, 0, .2) !important; 
+}
+
+.wh-image {
+	width: 500px !important;
+	height: 150px;
+	object-fit: cover;
+}
+
+.h-image-50vh {
+	height: 50vh;
+	object-fit: cover;
+}
+
+.h-image-100vh {
+	height: 100vh;
+	object-fit: cover;
+}
+
+.image-overlay::before {
+	content: "";
+	z-index: 99;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .2);
+}
+
+.shadow-top {
+	box-shadow: 10px -6px 41px rgba(0, 0, 0, 0.8);
+}
+
+
+/* 
+------------------------------------------- 
+	FOOTER 
+-------------------------------------------
+*/
+.bg-copy {
+	background-color: #1E2329;
+}
+
+.circle-icon {
+	background-color: #3f4347;
+	color: #fff !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	padding: 20px;
+	letter-spacing: 0;
+}
+
+.circle-icon:hover {
+	background-color: #fff;
+	color: #494946 !important;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+/* 
+------------------------------------------- 
+	BREAKPOINT
+-------------------------------------------
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
