@@ -110,7 +110,7 @@ const index = () => {
                       <img
                         class="img-fluid w-100 h-image-100vh"
                         src={list.image}
-                        alt="image-1"
+                        alt={list.name}
                       />
                     </figure>
                     <div class="position-absolute top-50 start-50 translate-middle p-4 text-white z-999 text-center w-100">
